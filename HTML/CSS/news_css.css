@@ -1,0 +1,34 @@
+.adscontain{
+    width:100%;
+    height: max-content;
+    box-align: center;
+  }
+  @media only screen and (max-width: 768px){
+    .adscontain{
+      width: 90%;
+    }
+  }
+
+  .news_box{
+      border: 3px black;
+     
+  }
+  .fix{
+      width: 100%;
+      height: max-content;
+  }
+  .btn {
+    color: #fff;
+    background-color: #001F42;
+    border-color: #001F42;
+}
+
+
+
+
+
+
+
+
+
+
