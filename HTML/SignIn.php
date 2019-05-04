@@ -81,7 +81,10 @@
 								    <div class="space">
 										<input class="input" type="text" name="username" placeholder="username">
 									</div> -->
+						     	<div class="space">
+						         <input class="input" type="email" name="Email" placeholder="Email">
 						
+					          </div>
 									<div class="space">
 									    <input class="input" type="text" name="firstname" placeholder="Firstname">  
 										</div>
