@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="icon" href="img/Mlogo.gif">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/AboutUsStyle.css">
+</head>
+<body class="bg">
+
+<nav class="navbar navbar-expand-md bg navbar-dark sticky-top">
+    <img src="img/logo.png" alt="logo" width="70px" height="55px"> <!--logo-->
+  <a class="navbar-brand" id="motion" href="index.php">Motion</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>  <!--ปุ่มย่อ nav-->
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault"> <!--link ในนี้จะอยู่ใน toggle-->
+    
+  <ul class="navbar-nav">
+      <li class="nav-item dropdown" id="navbar"> <!--drop link-->
+          <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">Experiment</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="Linear.php">Linear Motion</a>
+            <a class="dropdown-item" href="Projectile.php">Projectile Motion</a>
+            <a class="dropdown-item" href="SimpleHarmonic.php">Simple Harmonic Motion</a>
+          </div>
+        </li>
+      <li class="nav-item"  id="navbar">
+        <a class="nav-link" href="news.php">News</a>   <!--general link-->
+      </li>
+      <li class="nav-item"  id="navbar">
+          <a class="nav-link" href="IncomingFeatures.php">Incoming Feature</a>
+      </li>
+      <li class="nav-item"  id="navbar">
+            <a class="nav-link" href="AboutUs.php">About Us</a>
+      </li>
+      <li class="nav-item signin"  id="navbar"> 
+        <a class="nav-link" href="SignIn.php">Sign in</a>   <!--sign in-->
+      </li>
+    </ul>
+  </nav>      
+  </div>
+ 
+  
+  <div class="white-bg" id="padup" style = "align-items: center;">
+    
+        
+        <center>
+          <h2 class="background container" id="padup"><span>About Us</span></h2>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/mai.jpg" class="w-100" alt="mai">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id = "card-content" > <strong>Name:</strong> Ms.Natthida Thammasorn</p>
+                      <p class="card-text" id="card-content"><strong>Student ID :</strong> 61130500209</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong>BackEnd Developer</p>
+                      <br>
+                      
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/praw.jpg" class="w-100" alt="praw">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id="card-content"> <strong>Name:</strong> Ms.Phruksachat Yaogul</p>
+                      <p class="card-text" id="card-content"><strong>Student ID :</strong> 61130500219</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong>  Web Designer/FrontEnd Developer</p>
+                      <br>
+            
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/tua.jpg" class="w-100" alt="tua">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id="card-content"> <strong>Name:</strong> Mr.Sakdipat Ontoum</p>
+                      <p class="card-text" id="card-content"><strong>Student ID :</strong> 61130500229</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong> FrontEnd Developer</p>
+                      <br>
+            
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/film.jpg" class="w-100" alt="film">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id="card-content"> <strong>Name:</strong> Mr.Chirayu Phromchan</p>
+                      <p class="card-text" id="card-content"><strong>Student ID :</strong> 61130500255</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong> Physic JavaScript Developer</p>
+                      <br>
+            
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/BigO.jpg" class="w-100" alt="BigO">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id="card-content"> <strong>Name:</strong> Mr.Parin Sasiwannakul</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong> Mentor/Supporter</p>
+                      <br>
+            
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            <div class="container py-3">
+              <div class="card">
+                <div class="row ">
+                  <div class="col-md-4">
+                    <img src="img/Thanathorn.jpg" class="w-100">
+                  </div>
+                  <div class="col-md-8 px-3">
+                    <div class="card-block px-3">
+                      <br>
+                      <p class="card-text" id="card-content"> <strong>Name:</strong> Mr.Thanathorn Juangroongruangkit</p>
+                      <p class="card-text" id="card-content"><strong>Student ID :</strong> 61130500300</p>
+                      <p class="card-text" id="card-content"><strong>Position :</strong> Web Designer</p>
+                      <br>
+            
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </div>
+            </div>
+      </center>
+  </div>
+
+  <footer class="bg white" style="padding: top 40px;">
+      <center>
+       
+          <p>CSC105 Web Application Development</p>
+          <p>Designed by Arghhhhhh team</p>
+          <p>WebsiteExample.com © 2019</p>
+        
+      </center>
+
+  </footer>
+
+</body>
+</html>
+
+
+
+
