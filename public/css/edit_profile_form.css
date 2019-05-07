@@ -1,0 +1,15 @@
+.text-primary{
+    color:  #001F42;
+}
+.btn.btn-primary {
+    background:  #001F42;
+}
+.alert-info{
+    background-color: #366CA9;
+    border-color: #bce8f1;
+    color: #ffffff;
+}
+.btn.btn-primary:hover{
+    background: #ffc107;
+    color:#001F42;
+}
