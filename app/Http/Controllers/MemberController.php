@@ -101,7 +101,7 @@ class MemberController extends Controller
 
     public function logout() {
         Auth::logout();
-        return redirect('/motion');
+        return redirect('/welcome');
     }
 
     public function user() {

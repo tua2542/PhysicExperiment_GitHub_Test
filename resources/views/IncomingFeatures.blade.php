@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-lg  bg navbar-dark sticky-top">
     <img src="img/logo.png" alt="logo" width="70px" height="55px">
     <!--logo-->
-    <a class="navbar-brand" id="motion" href="/motion">Motion</a>
+    <a class="navbar-brand" id="motion" href="/welcome">Motion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       <!--ปุ่มย่อ nav-->
