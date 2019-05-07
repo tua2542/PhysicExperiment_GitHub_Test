@@ -89,7 +89,7 @@ class MemberController extends Controller
         }
         
         if( Auth::attempt($request->except(['_token'])) ){
-            return redirect('/motion');
+            return redirect('/welcome');
         }
 
         return redirect( '/SignIn')

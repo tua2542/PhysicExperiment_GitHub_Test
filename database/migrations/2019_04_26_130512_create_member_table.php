@@ -18,8 +18,7 @@ class CreateMemberTable extends Migration
             $table->string('firstname',20);
             $table->string('lastname',20);
             $table->string('email',150);
-            $table->string('password',20);
-            $table->string('status',1);
+            $table->string('password',150);
         });
         // Schema::create('premiumMember', function (Blueprint $table) {
         //     $table->increments('id');

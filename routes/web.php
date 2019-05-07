@@ -35,9 +35,7 @@ Route::get('Linear', function () {
 Route::get('news', function () {
     return view('news');
 });
-Route::get('Payment', function () {
-    return view('Payment');
-});
+
 Route::get('Projectile', function () {
     return view('Projectile');
 });
